@@ -1,0 +1,59 @@
+html, body,{
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: auto; /* закрепи. футер внизу */
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-contact, .footer-social {
+    margin: 20px 0;
+}
+
+.footer-contact h4, .footer-social h4 {
+    margin-bottom: 10px;
+}
+
+.footer-contact p, .footer-social a {
+    margin: 5px 0;
+}
+
+.footer-social a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-social a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
